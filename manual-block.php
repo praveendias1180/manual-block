@@ -1,7 +1,11 @@
 <?php
 /**
  * Plugin Name: Manual Custom Block
- * Plugin Description: Creating a WordPress block manually
+ * Description: Creating a WordPress block manually
+ * Version:           0.1.0
+ * Author:            Praveen Dias
+ * License:           GPL-2.0-or-later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
 
  function manual_custom_block_script_register(){
