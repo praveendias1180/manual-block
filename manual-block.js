@@ -59,6 +59,12 @@ wp.blocks.registerBlockType('praveendias1180/manual-block', {
           );
     },
     save: function(props){
-        return null;
+        return /*#__PURE__*/ React.createElement(
+            "div",
+            null,
+            /*#__PURE__*/ React.createElement("h3", null, props.attributes.companyName),
+            /*#__PURE__*/ React.createElement("p", null, props.attributes.companyPhone),
+            /*#__PURE__*/ React.createElement("p", null, props.attributes.companyAddress)
+          );
     }
 })
